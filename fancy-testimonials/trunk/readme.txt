@@ -1,7 +1,7 @@
 === Fancy Testimonials ===
 Name: Fancy Testimonials
 Contributors: Dijitul, DJB31st
-Tags, Benbuildsstuff: testimonials, slider, carousel, shortcode
+Tags: testimonials, slider, carousel, shortcode
 Requires at least: 3.5.2
 Tested up to: 3.6
 License: GPLv2 or later

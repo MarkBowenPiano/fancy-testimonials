@@ -1,0 +1,63 @@
+/*
+These are basic styles for the plugin. Please feel free to adapt it how you wish. 
+*/
+
+#testimonials-wrapper {
+	min-height: 150px !important;
+}
+.testimonial-item {
+	padding: 10px 100px;
+	text-align: center;
+}
+.testimonial-author {
+	margin-top: 40px;
+	font-style: italic;
+}
+#prev2 {
+	background: url('../images/left.png') no-repeat;
+	height: 31px;
+	width: 22px;
+	text-indent: -9999px;
+	float: left;
+}
+#next2 {
+	background: url('../images/right.png') no-repeat;
+	height: 31px;
+	width: 22px;
+	text-indent: -9999px;
+	float: right;
+}
+#prev2, #next2 {
+	position: relative;
+	bottom: 100px;
+	clear: both;
+	z-index: 99999;
+}
+#prev2:hover, #next2:hover {
+	-moz-opacity: 0.80;
+	opacity: 0.80;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=80);
+}
+#next2 {
+	bottom: 132px;
+}
+#pager {
+	float: left;
+	position: relative;
+	left: 48%;
+}
+#pager a {
+	background: url('../images/pagerButtons.png') no-repeat;
+	width: 10px;
+	height: 10px;
+	text-indent: -9999px;
+	padding: 0 10px;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+#pager .activeSlide {
+	background-position: 0px -12px;
+}

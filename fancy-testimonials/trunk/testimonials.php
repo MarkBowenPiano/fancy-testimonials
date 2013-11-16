@@ -72,9 +72,9 @@ function dijitul_scripts() {
 
 	if(is_admin()) return false;
 
-	wp_enqueue_script('slider', plugins_url('/fancy-testimonials/js/slider.js'));
+	wp_enqueue_script('slider', plugins_url('/dijitul_testimonials/js/slider.js'));
 
-	wp_enqueue_script('jquery.cycle.all', plugins_url('/fancy-testimonials/js/jquery.cycle.all.js'));
+	wp_enqueue_script('jquery.cycle.all', plugins_url('/dijitul_testimonials/js/jquery.cycle.all.js'));
 
 }
 
@@ -86,7 +86,7 @@ function dijitul_styles()
 
 { 
 
-  wp_register_style( 'custom-style', plugins_url('/fancy-testimonials/css/custom-style.css'));
+  wp_register_style( 'custom-style', plugins_url('/dijitul_testimonials/css/custom-style.css'));
 
 
 
